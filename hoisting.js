@@ -7,7 +7,6 @@ function callMe() {
   return lyric;
 }
 
-
 function crazy() {
   var thisIsCrazy = function (){
     console.log("hey!!!")
@@ -17,7 +16,6 @@ function crazy() {
 
 function sayMyName() {
   var name = "Cricky";
-  sayMy();
   function sayMy() {
     var name = "Kristin";
     console.log(name);
